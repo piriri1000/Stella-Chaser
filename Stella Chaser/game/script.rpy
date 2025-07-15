@@ -1,17 +1,16 @@
-﻿# 이 파일에 게임 스크립트를 입력합니다.
-
-# image 문을 사용해 이미지를 정의합니다.
-# image eileen happy = "eileen_happy.png"
-
-# 게임에서 사용할 캐릭터를 정의합니다.
-define e = Character('아이린', color="#c8ffc8")
+define st = Character('스텔레', color = "#fbd128")
+define el = Character('엘리시아', color = "#ff69b4")
+define pr = Character('파르도 필리스', color = "#fece8b")
+define le = Character('랜턴', color = "#582f6a")
+define sa = Character('사프리아', color = "#582f6a")
+define xe = Character('제레(백)', color = "#c2f0ff")
+define xe1 = Character('제레(흑)', color = "#290000")
+define vi = Character('비타', color = "#15c1a4")
+define gr = Character('그리세오', color = "#94ffed")
 
 
 # 여기에서부터 게임이 시작합니다.
 label start:
 
-    e "새로운 렌파이 게임을 만들었군요."
-
-    e "이야기와 그림, 음악을 더하면 여러분의 게임을 세상에 배포할 수 있어요!"
 
     return
